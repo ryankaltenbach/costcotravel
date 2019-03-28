@@ -5,33 +5,44 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <title>Deckplan, gratuties, promo-calender</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <title>Cruise Projects</title>
+    <link rel="icon" href="favicon.ico" type="image/ico" sizes="16x16">
   </head>
   <body>
-   <h1>Costco Travel Compass - Project</h1>
 
-   <h2>Deckplan cursor style - Magnifier</h2>
-   <p>Choose deck plan here</p>
+   <!--Header   -->
+   <div class="header">
+  <a href="#default" class="logo">Costco Travel Sandbox</a>
+  <div class="header-right">
+    <a class="active" href="#home">Magnify cursor</a>
+    <a href="#contact">Google Audits</a>
+    <a href="#about">Gratuties</a>
+    <a href="#about">Promo Calculator</a>
+  </div>
+</div>
+<!--Dropdown button  -->
+<div class="container">
+  <div>
+<p id="imageDetail"> Choose a deckplan to load an image. This will display the deck plan with
+    a cursor style of "Magnify" allowing users to view deckplan details easily
+    without modifying their browser window.</p>
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Deckplan</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="assets/deckplans/azamara/index.html">Azamara</a>
+      <a href="assets/deckplans/carnival/index.html">Carnival</a>
+      <a href="assets/deckplans/celebrity/index.html">Celebrity</a>
+      <a href="assets/deckplans/cunard/index.html">Cunard</a>
+      <a href="assets/deckplans/disney/index.html">Disney</a>
+      <a href="assets/deckplans/holland/index.html">Holland</a>
+      <a href="assets/deckplans/norwegian/index.html">Norwegian</a>
+      <a href="assets/deckplans/princess/index.html">Princess</a>
+      <a href="assets/deckplans/royalCarribean/index.html">Royal Carribean</a>
+    </div>
+  </div>
+</div>
 
-   <div class="dropdown">
-     <button class="dropbtn">Dropdown</button>
-     <div class="dropdown-content">
-       <a href="#">Carnival</a>
-       <a href="#">Azamara</a>
-       <a href="#">Celebrity</a>
-       <a href="#">Cunard</a>
-       <a href="#">Disney</a>
-       <a href="#">Holland</a>
-       <a href="#">Norwegian</a>
-       <a href="#">Princess</a>
-       <a href="#">Royal Carribbean</a>
-     </div>
-   </div>
-
-
-
-
-
-
+<script type="text/javascript" charset="utf-8" src="script.js"></script>
   </body>
 </html>
