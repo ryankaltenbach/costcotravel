@@ -1,5 +1,5 @@
 body {
-  background-image: url("assets/background.jpg");
+  background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Josefin Sans', sans-serif;
@@ -108,13 +108,13 @@ body {
 
 /* Flex-box Deck plan container*/
 .container {
-  border: 10px solid red;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
  #decks {
-   border: 10px solid red;
+   /* border: 10px solid red; */
  }
  /*Paragraph styles for deckplan selection*/
  #imageDetail {
@@ -123,4 +123,40 @@ body {
    color:black;
    font-family: 'Merriweather', serif;
    background: white;
+ }
+
+ /*Deckplan with magnifier image  */
+ .container {
+   /* border: 10px solid red; */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+
+
+ .container {
+  /* border: 10px solid red; */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+/*Magnify cursor for deck plans  */
+ * {box-sizing: border-box;}
+
+ .img-magnifier-container {
+   position: relative;
+
+ }
+
+ .img-magnifier-glass {
+   position: absolute;
+   border: 3px solid #000;
+   border-radius: 25%;
+   cursor: none;
+   width: 120px;
+   height: 80px;
+ }
+
+ .construction {
+   background-image: url("constructionbackground.jpg");
  }
